@@ -13,7 +13,8 @@ spec:
     spec:
       containers:
       - name: front-end
-        image: weaveworksdemos/front-end:0.3.12
+        image: aspirinenun/front-end:latest
+        imagePullPolicy: Always
         resources:
           limits:
             cpu: 300m
