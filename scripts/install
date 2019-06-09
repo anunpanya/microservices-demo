@@ -9,4 +9,4 @@ mv ./scripts/config ${HOME}/.kube/config
 kubectl version
 kubectl get nodes
 
-#kubectl apply -f deploy/kubernetes/complete-demo.yaml
+kubectl apply -f ./deploy/kubernetes/complete-demo.yaml
