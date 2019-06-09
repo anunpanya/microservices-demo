@@ -2,4 +2,4 @@ env:
   global:
   - PATH="${PATH}:${HOME}/.local/bin"
 script:
- - ./scripts/install.sh
+ - ./scripts/install
